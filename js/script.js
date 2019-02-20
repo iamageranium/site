@@ -75,6 +75,8 @@ window.addEventListener('DOMContentLoaded', () => {
         badge.textContent = i + items.length;
         if(badge.textContent == 0) {
                 empty.style.display = 'block';
+        } else {
+            empty.style.display = 'none';
         }
     }
 
